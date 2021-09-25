@@ -1,4 +1,6 @@
-from api.google_credentials import GoogleCredentials
+#!/usr/bin/env python3
+
+from .google_credentials import GoogleCredentials
 from googleapiclient.discovery import Resource, build
 
 
